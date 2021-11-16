@@ -7,3 +7,7 @@ The EXE is then executed using the CreateProcessA Win32 API. All in all, This me
 The "Original.docm" contains a macro that when the "Enable Content" button is pressed, displays a message box that reads "Did you really run this Word document LMAO!". The VBA utilizes the technique I have talked about.
 
 "One good girl is worth a thousand bitches" -Kanye West
+
+# Note
+
+As of right now the VBA will only work on a 64-Bit Word application. This is due to the function defeintion and structures needed for the CreateProcessA function. I will hopefully get around to adding a check for the VBA to see whether it is a 64-Bit or 32-Bit Word application. You should be alright for the time being for I assume most computers and applications are using a 64-Bit architecture. 
