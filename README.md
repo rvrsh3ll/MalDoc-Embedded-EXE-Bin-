@@ -6,6 +6,9 @@ The EXE is then executed using the CreateProcessA Win32 API. All in all, This me
 
 The "Original.docm" contains a macro that when the "Enable Content" button is pressed, displays a message box that reads "Did you really run this Word document LMAO!". The VBA utilizes the technique I have talked about.
 
+YouTube video discussing this:
+https://www.youtube.com/watch?v=OPvmsvqLyc8
+
 "One good girl is worth a thousand bitches" -Kanye West
 
 # Note
