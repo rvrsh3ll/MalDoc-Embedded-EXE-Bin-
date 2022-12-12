@@ -9,8 +9,6 @@ The "Original.docm" contains a macro that when the "Enable Content" button is pr
 YouTube video discussing this MalDoc:
 https://www.youtube.com/watch?v=OPvmsvqLyc8
 
-"One good girl is worth a thousand bitches" -Kanye West
-
 # Note
 
 As of right now the VBA will only work on a 64-Bit Word application. This is due to the function defeintion and structures needed for the CreateProcessA function. I will hopefully get around to adding a check for the VBA to see whether it is a 64-Bit or 32-Bit Word application. You should be alright for the time being for I assume most computers and applications are using a 64-Bit architecture. 
